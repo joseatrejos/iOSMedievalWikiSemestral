@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		137A8077239411D50036AFB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A8076239411D50036AFB2 /* AppDelegate.swift */; };
+		137A8079239411D50036AFB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A8078239411D50036AFB2 /* SceneDelegate.swift */; };
+		137A807E239411D50036AFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137A807C239411D50036AFB2 /* Main.storyboard */; };
+		137A8080239411DC0036AFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137A807F239411DC0036AFB2 /* Assets.xcassets */; };
+		137A8083239411DC0036AFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137A8081239411DC0036AFB2 /* LaunchScreen.storyboard */; };
+		137A808E239411DC0036AFB2 /* MedievalWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A808D239411DC0036AFB2 /* MedievalWikiTests.swift */; };
+		137A8099239411DC0036AFB2 /* MedievalWikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A8098239411DC0036AFB2 /* MedievalWikiUITests.swift */; };
+		137A80AC239416470036AFB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80AB239416470036AFB2 /* ViewController.swift */; };
+		137A80B1239416B80036AFB2 /* PantallaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80B0239416B80036AFB2 /* PantallaPrincipal.swift */; };
+		137A80B4239416D10036AFB2 /* Ficha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80B2239416D10036AFB2 /* Ficha.swift */; };
+		137A80B5239416D10036AFB2 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80B3239416D10036AFB2 /* Stats.swift */; };
+		137A80B8239416E90036AFB2 /* CeldaFichaDetalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80B6239416E90036AFB2 /* CeldaFichaDetalleController.swift */; };
+		137A80B9239416E90036AFB2 /* FichaDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80B7239416E90036AFB2 /* FichaDetalleViewController.swift */; };
+		137A80BE239417300036AFB2 /* StatsDetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80BC239417300036AFB2 /* StatsDetalleViewController.swift */; };
+		137A80BF239417300036AFB2 /* CeldaStatsDetalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80BD239417300036AFB2 /* CeldaStatsDetalleController.swift */; };
+		137A80C3239417600036AFB2 /* CeldaMenuPersonajesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80C2239417600036AFB2 /* CeldaMenuPersonajesController.swift */; };
+		137A80C62394177C0036AFB2 /* FichasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80C42394177C0036AFB2 /* FichasViewController.swift */; };
+		137A80C72394177C0036AFB2 /* CeldaFichasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80C52394177C0036AFB2 /* CeldaFichasController.swift */; };
+		137A80CA2394179B0036AFB2 /* CeldaStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80C82394179A0036AFB2 /* CeldaStatsController.swift */; };
+		137A80CB2394179B0036AFB2 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137A80C92394179B0036AFB2 /* StatsViewController.swift */; };
+		137A80CE2394188B0036AFB2 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 137A80CD2394188B0036AFB2 /* AlamofireImage */; };
+		137A80D3239419010036AFB2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 137A80D2239419010036AFB2 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137A808A239411DC0036AFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137A806B239411D50036AFB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137A8072239411D50036AFB2;
+			remoteInfo = MedievalWiki;
+		};
+		137A8095239411DC0036AFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137A806B239411D50036AFB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137A8072239411D50036AFB2;
+			remoteInfo = MedievalWiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137A8073239411D50036AFB2 /* MedievalWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedievalWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		137A8076239411D50036AFB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		137A8078239411D50036AFB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		137A807D239411D50036AFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		137A807F239411DC0036AFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		137A8082239411DC0036AFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		137A8084239411DC0036AFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137A8089239411DC0036AFB2 /* MedievalWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedievalWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		137A808D239411DC0036AFB2 /* MedievalWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedievalWikiTests.swift; sourceTree = "<group>"; };
+		137A808F239411DC0036AFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137A8094239411DC0036AFB2 /* MedievalWikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedievalWikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		137A8098239411DC0036AFB2 /* MedievalWikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedievalWikiUITests.swift; sourceTree = "<group>"; };
+		137A809A239411DC0036AFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137A80AB239416470036AFB2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		137A80B0239416B80036AFB2 /* PantallaPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PantallaPrincipal.swift; sourceTree = "<group>"; };
+		137A80B2239416D10036AFB2 /* Ficha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ficha.swift; sourceTree = "<group>"; };
+		137A80B3239416D10036AFB2 /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		137A80B6239416E90036AFB2 /* CeldaFichaDetalleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaFichaDetalleController.swift; sourceTree = "<group>"; };
+		137A80B7239416E90036AFB2 /* FichaDetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FichaDetalleViewController.swift; sourceTree = "<group>"; };
+		137A80BC239417300036AFB2 /* StatsDetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsDetalleViewController.swift; sourceTree = "<group>"; };
+		137A80BD239417300036AFB2 /* CeldaStatsDetalleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaStatsDetalleController.swift; sourceTree = "<group>"; };
+		137A80C2239417600036AFB2 /* CeldaMenuPersonajesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaMenuPersonajesController.swift; sourceTree = "<group>"; };
+		137A80C42394177C0036AFB2 /* FichasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FichasViewController.swift; sourceTree = "<group>"; };
+		137A80C52394177C0036AFB2 /* CeldaFichasController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaFichasController.swift; sourceTree = "<group>"; };
+		137A80C82394179A0036AFB2 /* CeldaStatsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldaStatsController.swift; sourceTree = "<group>"; };
+		137A80C92394179B0036AFB2 /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137A8070239411D50036AFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137A80CE2394188B0036AFB2 /* AlamofireImage in Frameworks */,
+				137A80D3239419010036AFB2 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137A8086239411DC0036AFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137A8091239411DC0036AFB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137A806A239411D50036AFB2 = {
+			isa = PBXGroup;
+			children = (
+				137A8075239411D50036AFB2 /* MedievalWiki */,
+			);
+			sourceTree = "<group>";
+		};
+		137A8074239411D50036AFB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137A8073239411D50036AFB2 /* MedievalWiki.app */,
+				137A8089239411DC0036AFB2 /* MedievalWikiTests.xctest */,
+				137A8094239411DC0036AFB2 /* MedievalWikiUITests.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		137A8075239411D50036AFB2 /* MedievalWiki */ = {
+			isa = PBXGroup;
+			children = (
+				137A80AA2394133E0036AFB2 /* Assets */,
+				137A80A9239413300036AFB2 /* Storyboard */,
+				137A80A8239413210036AFB2 /* ViewControllers */,
+				137A80A72394130B0036AFB2 /* Models */,
+				137A80A6239412F10036AFB2 /* App */,
+			);
+			path = MedievalWiki;
+			sourceTree = "<group>";
+		};
+		137A808C239411DC0036AFB2 /* MedievalWikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				137A808D239411DC0036AFB2 /* MedievalWikiTests.swift */,
+				137A808F239411DC0036AFB2 /* Info.plist */,
+			);
+			path = MedievalWikiTests;
+			sourceTree = "<group>";
+		};
+		137A8097239411DC0036AFB2 /* MedievalWikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				137A8098239411DC0036AFB2 /* MedievalWikiUITests.swift */,
+				137A809A239411DC0036AFB2 /* Info.plist */,
+			);
+			path = MedievalWikiUITests;
+			sourceTree = "<group>";
+		};
+		137A80A6239412F10036AFB2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				137A8076239411D50036AFB2 /* AppDelegate.swift */,
+				137A8078239411D50036AFB2 /* SceneDelegate.swift */,
+				137A8084239411DC0036AFB2 /* Info.plist */,
+				137A808C239411DC0036AFB2 /* MedievalWikiTests */,
+				137A8097239411DC0036AFB2 /* MedievalWikiUITests */,
+				137A8074239411D50036AFB2 /* Products */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		137A80A72394130B0036AFB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				137A80B2239416D10036AFB2 /* Ficha.swift */,
+				137A80B3239416D10036AFB2 /* Stats.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		137A80A8239413210036AFB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				137A80AF239416790036AFB2 /* Menu Principal */,
+				137A80AD2394165C0036AFB2 /* Fichas de Personaje */,
+				137A80AE239416670036AFB2 /* Estadísticas */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		137A80A9239413300036AFB2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				137A807C239411D50036AFB2 /* Main.storyboard */,
+				137A8081239411DC0036AFB2 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		137A80AA2394133E0036AFB2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				137A807F239411DC0036AFB2 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		137A80AD2394165C0036AFB2 /* Fichas de Personaje */ = {
+			isa = PBXGroup;
+			children = (
+				137A80BB2394170D0036AFB2 /* Fichas */,
+				137A80BA239416FA0036AFB2 /* Ficha Detalles */,
+			);
+			name = "Fichas de Personaje";
+			sourceTree = "<group>";
+		};
+		137A80AE239416670036AFB2 /* Estadísticas */ = {
+			isa = PBXGroup;
+			children = (
+				137A80C1239417410036AFB2 /* Stats */,
+				137A80C0239417360036AFB2 /* Stats Detalles */,
+			);
+			name = "Estadísticas";
+			sourceTree = "<group>";
+		};
+		137A80AF239416790036AFB2 /* Menu Principal */ = {
+			isa = PBXGroup;
+			children = (
+				137A80AB239416470036AFB2 /* ViewController.swift */,
+				137A80B0239416B80036AFB2 /* PantallaPrincipal.swift */,
+				137A80C2239417600036AFB2 /* CeldaMenuPersonajesController.swift */,
+			);
+			name = "Menu Principal";
+			sourceTree = "<group>";
+		};
+		137A80BA239416FA0036AFB2 /* Ficha Detalles */ = {
+			isa = PBXGroup;
+			children = (
+				137A80B7239416E90036AFB2 /* FichaDetalleViewController.swift */,
+				137A80B6239416E90036AFB2 /* CeldaFichaDetalleController.swift */,
+			);
+			name = "Ficha Detalles";
+			sourceTree = "<group>";
+		};
+		137A80BB2394170D0036AFB2 /* Fichas */ = {
+			isa = PBXGroup;
+			children = (
+				137A80C42394177C0036AFB2 /* FichasViewController.swift */,
+				137A80C52394177C0036AFB2 /* CeldaFichasController.swift */,
+			);
+			name = Fichas;
+			sourceTree = "<group>";
+		};
+		137A80C0239417360036AFB2 /* Stats Detalles */ = {
+			isa = PBXGroup;
+			children = (
+				137A80BC239417300036AFB2 /* StatsDetalleViewController.swift */,
+				137A80BD239417300036AFB2 /* CeldaStatsDetalleController.swift */,
+			);
+			name = "Stats Detalles";
+			sourceTree = "<group>";
+		};
+		137A80C1239417410036AFB2 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				137A80C92394179B0036AFB2 /* StatsViewController.swift */,
+				137A80C82394179A0036AFB2 /* CeldaStatsController.swift */,
+			);
+			name = Stats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137A8072239411D50036AFB2 /* MedievalWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137A809D239411DC0036AFB2 /* Build configuration list for PBXNativeTarget "MedievalWiki" */;
+			buildPhases = (
+				137A806F239411D50036AFB2 /* Sources */,
+				137A8070239411D50036AFB2 /* Frameworks */,
+				137A8071239411D50036AFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedievalWiki;
+			packageProductDependencies = (
+				137A80CD2394188B0036AFB2 /* AlamofireImage */,
+				137A80D2239419010036AFB2 /* Alamofire */,
+			);
+			productName = MedievalWiki;
+			productReference = 137A8073239411D50036AFB2 /* MedievalWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		137A8088239411DC0036AFB2 /* MedievalWikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137A80A0239411DC0036AFB2 /* Build configuration list for PBXNativeTarget "MedievalWikiTests" */;
+			buildPhases = (
+				137A8085239411DC0036AFB2 /* Sources */,
+				137A8086239411DC0036AFB2 /* Frameworks */,
+				137A8087239411DC0036AFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137A808B239411DC0036AFB2 /* PBXTargetDependency */,
+			);
+			name = MedievalWikiTests;
+			productName = MedievalWikiTests;
+			productReference = 137A8089239411DC0036AFB2 /* MedievalWikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		137A8093239411DC0036AFB2 /* MedievalWikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137A80A3239411DC0036AFB2 /* Build configuration list for PBXNativeTarget "MedievalWikiUITests" */;
+			buildPhases = (
+				137A8090239411DC0036AFB2 /* Sources */,
+				137A8091239411DC0036AFB2 /* Frameworks */,
+				137A8092239411DC0036AFB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137A8096239411DC0036AFB2 /* PBXTargetDependency */,
+			);
+			name = MedievalWikiUITests;
+			productName = MedievalWikiUITests;
+			productReference = 137A8094239411DC0036AFB2 /* MedievalWikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137A806B239411D50036AFB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Trejo;
+				TargetAttributes = {
+					137A8072239411D50036AFB2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					137A8088239411DC0036AFB2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 137A8072239411D50036AFB2;
+					};
+					137A8093239411DC0036AFB2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 137A8072239411D50036AFB2;
+					};
+				};
+			};
+			buildConfigurationList = 137A806E239411D50036AFB2 /* Build configuration list for PBXProject "MedievalWiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137A806A239411D50036AFB2;
+			packageReferences = (
+				137A80CC2394188B0036AFB2 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				137A80D1239419010036AFB2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 137A8074239411D50036AFB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137A8072239411D50036AFB2 /* MedievalWiki */,
+				137A8088239411DC0036AFB2 /* MedievalWikiTests */,
+				137A8093239411DC0036AFB2 /* MedievalWikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137A8071239411D50036AFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137A8083239411DC0036AFB2 /* LaunchScreen.storyboard in Resources */,
+				137A8080239411DC0036AFB2 /* Assets.xcassets in Resources */,
+				137A807E239411D50036AFB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137A8087239411DC0036AFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137A8092239411DC0036AFB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137A806F239411D50036AFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137A80B9239416E90036AFB2 /* FichaDetalleViewController.swift in Sources */,
+				137A80AC239416470036AFB2 /* ViewController.swift in Sources */,
+				137A80B5239416D10036AFB2 /* Stats.swift in Sources */,
+				137A80B1239416B80036AFB2 /* PantallaPrincipal.swift in Sources */,
+				137A80B8239416E90036AFB2 /* CeldaFichaDetalleController.swift in Sources */,
+				137A80BF239417300036AFB2 /* CeldaStatsDetalleController.swift in Sources */,
+				137A8077239411D50036AFB2 /* AppDelegate.swift in Sources */,
+				137A80C72394177C0036AFB2 /* CeldaFichasController.swift in Sources */,
+				137A80B4239416D10036AFB2 /* Ficha.swift in Sources */,
+				137A80CA2394179B0036AFB2 /* CeldaStatsController.swift in Sources */,
+				137A8079239411D50036AFB2 /* SceneDelegate.swift in Sources */,
+				137A80BE239417300036AFB2 /* StatsDetalleViewController.swift in Sources */,
+				137A80C62394177C0036AFB2 /* FichasViewController.swift in Sources */,
+				137A80CB2394179B0036AFB2 /* StatsViewController.swift in Sources */,
+				137A80C3239417600036AFB2 /* CeldaMenuPersonajesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137A8085239411DC0036AFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137A808E239411DC0036AFB2 /* MedievalWikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137A8090239411DC0036AFB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137A8099239411DC0036AFB2 /* MedievalWikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		137A808B239411DC0036AFB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137A8072239411D50036AFB2 /* MedievalWiki */;
+			targetProxy = 137A808A239411DC0036AFB2 /* PBXContainerItemProxy */;
+		};
+		137A8096239411DC0036AFB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137A8072239411D50036AFB2 /* MedievalWiki */;
+			targetProxy = 137A8095239411DC0036AFB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		137A807C239411D50036AFB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137A807D239411D50036AFB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		137A8081239411DC0036AFB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137A8082239411DC0036AFB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		137A809B239411DC0036AFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		137A809C239411DC0036AFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137A809E239411DC0036AFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedievalWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.MedievalWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		137A809F239411DC0036AFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedievalWiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.MedievalWiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		137A80A1239411DC0036AFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedievalWikiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.MedievalWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedievalWiki.app/MedievalWiki";
+			};
+			name = Debug;
+		};
+		137A80A2239411DC0036AFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedievalWikiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.MedievalWikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedievalWiki.app/MedievalWiki";
+			};
+			name = Release;
+		};
+		137A80A4239411DC0036AFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedievalWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.MedievalWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedievalWiki;
+			};
+			name = Debug;
+		};
+		137A80A5239411DC0036AFB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedievalWikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulsa.MedievalWikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedievalWiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137A806E239411D50036AFB2 /* Build configuration list for PBXProject "MedievalWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137A809B239411DC0036AFB2 /* Debug */,
+				137A809C239411DC0036AFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137A809D239411DC0036AFB2 /* Build configuration list for PBXNativeTarget "MedievalWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137A809E239411DC0036AFB2 /* Debug */,
+				137A809F239411DC0036AFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137A80A0239411DC0036AFB2 /* Build configuration list for PBXNativeTarget "MedievalWikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137A80A1239411DC0036AFB2 /* Debug */,
+				137A80A2239411DC0036AFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137A80A3239411DC0036AFB2 /* Build configuration list for PBXNativeTarget "MedievalWikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137A80A4239411DC0036AFB2 /* Debug */,
+				137A80A5239411DC0036AFB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		137A80CC2394188B0036AFB2 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+		137A80D1239419010036AFB2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		137A80CD2394188B0036AFB2 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137A80CC2394188B0036AFB2 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		137A80D2239419010036AFB2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137A80D1239419010036AFB2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 137A806B239411D50036AFB2 /* Project object */;
+}
